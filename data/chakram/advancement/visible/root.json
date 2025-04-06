@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot",
+      "components": {
+        "minecraft:item_model": "chakram:chakram"
+      }
+    },
+    "title": "Chakram",
+    "description": {
+      "translate": "chakram:adv_root_desc",
+      "fallback": "Tools to make building easy!"
+    },
+    "background": "minecraft:block/chiseled_tuff",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

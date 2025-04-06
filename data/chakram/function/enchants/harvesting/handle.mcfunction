@@ -1,0 +1,1 @@
+execute at @s if block ~ ~ ~ #chakram:harvesting run setblock ~ ~ ~ minecraft:air destroy

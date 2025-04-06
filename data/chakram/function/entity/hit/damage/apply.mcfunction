@@ -1,0 +1,1 @@
+$damage @s $(damage) minecraft:player_attack by @p[distance=..100,gamemode=!spectator,predicate=chakram:idmatch]

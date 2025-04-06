@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " e ",
+    "ebe",
+    " e "
+  ],
+  "key": {
+    "e": "minecraft:echo_shard",
+    "b": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:rabbit_foot",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": ["",{"translate":"chakram:chakram","fallback":"Chakram","italic":false}],
+      "minecraft:item_model": "chakram:chakram",
+      "minecraft:custom_data": {"chakram_chakram":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:attribute_modifiers": [{"type":"minecraft:attack_damage","slot":"mainhand","id":"chakram:attack_damage","amount":6,"operation":"add_value"},{"type":"minecraft:attack_speed","slot":"mainhand","id":"chakram:attack_speed","amount":-2,"operation":"add_value"}],
+      "minecraft:consumable": {"consume_seconds":2147483648},
+      "minecraft:max_stack_size": 1,
+      "minecraft:weapon": {},
+      "minecraft:max_damage": 500,
+      "minecraft:rarity": "epic"
+    }
+  }
+}
