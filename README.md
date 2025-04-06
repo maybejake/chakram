@@ -1,5 +1,5 @@
 ![Chakram Logo](https://github.com/user-attachments/assets/efee8de3-ca73-4969-ad51-f5dfe5a536ba)
-![chakram item](https://github.com/user-attachments/assets/961951be-72e2-428c-ab27-f7645e55d8c2)
+![chakram item](https://github.com/user-attachments/assets/8c66169f-f131-49e6-a5e6-a24cadfa0021)
 
 ---
 
