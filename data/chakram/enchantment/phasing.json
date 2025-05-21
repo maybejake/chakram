@@ -4,7 +4,7 @@
     "fallback": "Phasing"
   },
   "exclusive_set": "chakram:bouncing",
-  "supported_items": "minecraft:rabbit_foot",
+  "supported_items": "minecraft:iron_sword",
   "weight": 1,
   "max_level": 5,
   "min_cost": {

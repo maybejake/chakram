@@ -1,7 +1,12 @@
 #base damage (x100)
-scoreboard players set @s chakram_damage 400
+scoreboard players set @s chakram_damage 500
 
-scoreboard players set @s chakram_enchantment_level 0
+#get ricochet
+execute store result score @s chakram_enchantment_level run data get entity @s item.components."minecraft:enchantments"."chakram:ricochet" 50
+
+#handle ricochet damage
+scoreboard players operation @s chakram_ricochet = @s chakram_bounces
+execute if score @s chakram_bounces matches 1.. run function chakram:entity/hit/damage/ricochet
 
 execute store result score @s chakram_enchantment_level run data get entity @s item.components."minecraft:enchantments"."minecraft:sharpness" 100
 execute if score @s chakram_enchantment_level matches 100.. run return run function chakram:entity/hit/damage/sharpness

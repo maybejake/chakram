@@ -11,11 +11,14 @@
     "chakram:adv_phasing_desc": "Obtain the Phasing enchantment",
     "chakram:adv_harvesting_title": "Long-range Reaping",
     "chakram:adv_harvesting_desc": "Obtain the Harvesting enchantment",
+    "chakram:adv_ricochet_title": "Skill shot",
+    "chakram:adv_ricochet_desc": "Obtain the Ricochet enchantment",
     
     "chakram:bouncing": "Bouncing",
     "chakram:harvesting": "Harvesting",
     "chakram:lightweight": "Lightweight",
     "chakram:phasing": "Phasing",
+    "chakram:ricochet": "Ricochet",
 
     "chakram:loaded":"loaded!"
 }

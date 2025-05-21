@@ -1,11 +1,16 @@
 {
   "description": {
-    "translate": "chakram:harvesting",
-    "fallback": "Harvesting"
+    "translate": "chakram:ricochet",
+    "fallback": "Ricochet"
   },
+  "exclusive_set": [
+    "minecraft:sharpness",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite"
+  ],
   "supported_items": "minecraft:iron_sword",
   "weight": 1,
-  "max_level": 1,
+  "max_level": 5,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 9

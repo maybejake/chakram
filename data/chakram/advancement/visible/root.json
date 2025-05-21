@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:rabbit_foot",
+      "id": "minecraft:iron_sword",
       "components": {
         "minecraft:item_model": "chakram:chakram"
       }
@@ -9,7 +9,7 @@
     "title": "Chakram",
     "description": {
       "translate": "chakram:adv_root_desc",
-      "fallback": "Tools to make building easy!"
+      "fallback": "A new mid-range throwing weapon!"
     },
     "background": "minecraft:block/chiseled_tuff",
     "show_toast": false,

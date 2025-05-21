@@ -3,7 +3,7 @@
     "translate": "chakram:lightweight",
     "fallback": "Lightweight"
   },
-  "supported_items": "minecraft:rabbit_foot",
+  "supported_items": "minecraft:iron_sword",
   "weight": 1,
   "max_level": 3,
   "min_cost": {

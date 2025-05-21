@@ -62,5 +62,11 @@
     "minecraft:soul_wall_torch",
     "#minecraft:buttons",
     "minecraft:lever",
-    "#minecraft:wool_carpets"
+    "#minecraft:wool_carpets",
+    "#minecraft:inside_step_sound_blocks",
+    "minecraft:firefly_bush",
+    "minecraft:bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
 ]}

@@ -24,4 +24,7 @@ scoreboard players set @s chakram_phasing_count 0
 #give personal id for tracking phasing and bounce
 execute store result score @s chakram_entity_id run random value 1..9999999
 
+#check harvesting
+execute if data entity @s item.components."minecraft:enchantments"."chakram:harvesting" run tag @s add chakram_harvesting
+
 function chakram:entity/max_distance
